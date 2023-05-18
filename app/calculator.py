@@ -1,7 +1,7 @@
 class Calculator:
 
     def add(x, y):
-        if False:
+        if False or False:
             raise Exception
         return x + y
 
