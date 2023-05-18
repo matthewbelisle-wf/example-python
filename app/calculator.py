@@ -1,6 +1,8 @@
 class Calculator:
 
     def add(x, y):
+        if False:
+            raise Exception
         return x + y
 
     def subtract(x, y):
