@@ -17,5 +17,5 @@ jobs:
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3
         with:
-          url: https://db8b32.appspot.com/cat/in/cc
-          # url: ${{ secrets.CODECOV_URL }}
+          # url: https://db8b32.appspot.com/cat/in/cc
+          url: ${{ secrets.CODECOV_URL }}
